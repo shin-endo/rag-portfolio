@@ -95,29 +95,41 @@ AIを日常的な道具として使っていました。
 ## 🚀 ローカルでの実行方法
 
 ### 1. リポジトリをクローン
+```bash
 git clone https://github.com/shin-endo/rag-portfolio.git
 cd rag-portfolio
+```
 
 ### 2. 仮想環境を作成・有効化
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
 ### 3. ライブラリをインストール
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. 環境変数を設定
-.env ファイルを作成し、OpenAI APIキーを設定：
+`.env` ファイルを作成し、OpenAI APIキーを設定：
+```
 OPENAI_API_KEY=sk-...
+```
 
 ### 5. ベクトルDBを構築
+```bash
 python build_db.py
+```
 
 ### 6. アプリを起動
+```bash
 streamlit run app.py
+```
 
 ---
 
-📁 ファイル構成
+## 📁 ファイル構成
 
 ```
 rag-portfolio/
