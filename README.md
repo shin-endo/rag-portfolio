@@ -117,8 +117,9 @@ streamlit run app.py
 
 ---
 
-## 📁 ファイル構成
+📁 ファイル構成
 
+```
 rag-portfolio/
 ├── app.py              # メインアプリ（Streamlit）
 ├── build_db.py         # ベクトルDB構築スクリプト
@@ -127,6 +128,7 @@ rag-portfolio/
 ├── requirements.txt    # 必要なライブラリ一覧
 ├── .gitignore
 └── README.md
+```
 
 ---
 
