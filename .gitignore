@@ -1,0 +1,15 @@
+# APIキー・秘密情報（絶対にGitHubに上げない）
+.env
+
+# 仮想環境（pip installでいつでも再現できるので不要）
+.venv/
+
+# Pythonの自動生成ファイル
+__pycache__/
+*.pyc
+
+# ベクトルDB（サイズが大きいため除外。README に再構築手順を書く）
+chroma_db/
+
+# macOSの自動生成ファイル
+.DS_Store
