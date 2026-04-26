@@ -9,6 +9,11 @@ from langchain_core.output_parsers import StrOutputParser
 
 load_dotenv()
 
+# --- chroma_dbがない場合は自動構築 ---
+if not os.path.exists("chroma_db"):
+    import subprocess
+    subprocess.run(["python", "build_db.py"])
+
 # --- ページ設定 ---
 st.set_page_config(
     page_title="RAGナレッジベースアシスタント",
