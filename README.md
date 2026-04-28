@@ -151,10 +151,10 @@ AIを日常的に活用する中で業務課題の解決策としてRAGに行き
 
 - 機械設計の現場課題 × AI技術という実体験に基づくアプローチ
 - 機械設計 × AI という専門性の掛け合わせを強みとして展開中
-- 詳しい経緯は **[Zenn記事](https://zenn.dev)** をご覧ください
+- 詳しい経緯は **[Zenn記事](https://zenn.dev/shin_endo/articles/a39e47379655b5)** をご覧ください
 
 ---
 
 ## 📝 関連記事
 
-- [機械設計エンジニアがRAGを作った理由（Zenn）](https://zenn.dev)
+- [機械設計エンジニアがRAGを作った理由（Zenn）](https://zenn.dev/shin_endo/articles/a39e47379655b5)
